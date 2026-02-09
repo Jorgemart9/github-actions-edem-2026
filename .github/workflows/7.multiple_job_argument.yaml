@@ -22,7 +22,7 @@ jobs:
     - name: Fist Step
       run: echo "Hello World"
   bye-world:
-    if "${{ github.event.inputs.debug_mode }}" == "true"
+    if: ${{ github.event.inputs.debug_mode == 'true' }}
     runs-on: ubuntu-latest
     steps:
     - name: Fist Step
