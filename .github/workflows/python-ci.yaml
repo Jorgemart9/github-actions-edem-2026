@@ -46,7 +46,7 @@ jobs:
     - name: Lint Dockerfile
       uses: hadolint/hadolint-action@v3.1.0
       with:
-        dockerfile: code/python/Dockerfile
+        dockerfile: code/python/DockerFile
 
   docker:
     runs-on: ubuntu-latest
@@ -66,5 +66,5 @@ jobs:
       with:
         push: false
         tags: python-app:latest
-        file: code/python/Dockerfile
+        file: code/python/DockerFile
         context: .
