@@ -44,10 +44,4 @@ Estos son los "corazones" del repo: archivos YAML que definen automatizaciones. 
 **Qué Hacen en Conjunto**: Demuestran evolución de workflows: desde "hola mundo" hasta pipelines reales de CI/CD que integran testing, linting, Docker y Terraform.
 
 #### **d. El Documento de Ejercicios (`EXERCISES.md`)**
-- Lista 9 ejercicios temáticos (uno por workflow), como:
-  - Crear workflows para tests de Python.
-  - Construir y subir imágenes Docker.
-  - Automatizar Terraform (plan/apply).
-  - Pipelines completos (CI/CD).
-  - Linting, despliegues multi-entorno, notificaciones, etc.
 - **Propósito**: Guía práctica para que los alumnos creen sus propios workflows basados en los ejemplos.
